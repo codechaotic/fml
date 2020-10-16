@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo '> conda env update -f environment.yml'
+
+conda env update -f environment.yml

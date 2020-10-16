@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source $(conda info --base)/etc/profile.d/conda.sh
+
+echo '> conda env remove -f environment.yml'
+
+conda deactivate
+conda env remove -f environment.yml
+
+conda clean --all

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source $(conda info --base)/etc/profile.d/conda.sh
+conda activate fml
+
+JUPYTER_CONFIG_DIR=$(pwd)/.jupyter/ conda run jupyter lab

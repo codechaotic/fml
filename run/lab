@@ -1,8 +1,0 @@
-#! /bin/zsh
-
-docker run -it \
-  --rm \
-  -p 8888:8888 \
-  -v $(realpath ./notebooks):/tf \
-  -v $(realpath ./data):/data \
-  fml
